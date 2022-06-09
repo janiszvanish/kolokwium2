@@ -7,6 +7,7 @@ namespace kolokwium.Models
 {
     public class MusicianTrack
     {
+        public int IdMusicianTrack { get; set; }
         public int IdMusician { get; set; }
         public int IdTrack { get; set; }
 
